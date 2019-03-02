@@ -1,0 +1,453 @@
+ html, body {
+  margin: 0;
+  padding: 0;
+ }
+
+
+
+ /********* Superposition simple de texte sur une image *******/
+
+  /* Conteneur principal */
+
+  .overlay-image-gandalf {
+    position: relative;
+    border: solid grey;
+    border-radius: 10px;
+    width: 16rem;
+    margin-right: 50px;
+  }
+  .overlay-image-hobbit {
+    position: relative;
+    border: solid grey;
+    border-radius: 10px;
+    width: 16rem;
+    margin-right: 50px;
+  }
+
+  .overlay-image-dwarf {
+    position: relative;
+    border: solid grey;
+    border-radius: 10px;
+    width: 16rem;
+    margin-right: 50px;
+  }
+  /* Image originale */
+
+  .image_gandalf {
+    display: block;
+    opacity: 0.6;
+  }
+
+  .image_hobbit {
+    display: block;
+    opacity: 0.6;
+  }
+
+  .image_dwarf {
+    display: block;
+    opacity: 0.6;
+  }
+
+  /* Texte original */
+
+  .text_normal {
+    font-size: 1.2em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    right: 10%;
+  }
+  .text_normalhobbit {
+    font-size: 1.2em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    margin-top: 50px;
+  }
+
+  .text_normaldwarf {
+    font-size: 1.2em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+  }
+
+
+  .orange {
+    color: #ff5000;
+  }
+
+  .bouton {
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    line-height: 50px;
+    margin-left: 20px;
+  }
+
+  .name {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: lighter;
+    margin-top: 50px;
+  }
+
+  /********* Hover image et texte *******/
+
+  /* Overlay */
+  .hover {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  /* Apparition overlay sur passage souris */
+
+  .overlay-image-gandalf:hover .hover {
+    opacity: 1;
+  }
+  .overlay-image-hobbit:hover .hover {
+    opacity: 1;
+  }
+
+  .overlay-image-dwarf:hover .hover {
+    opacity: 1;
+  }
+  .image_hover {
+    position: relative;
+  }
+
+  .text_hover {
+    color: #fff;
+    font-size: 2em;
+    font-weight: lighter;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .text_hoverhobbit {
+    color: #fff;
+    font-size: 2em;
+    font-weight: lighter;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .text_hoverdwarf {
+    color: #fff;
+    font-size: 2em;
+    font-weight: lighter;
+    text-shadow: 3px 3px 3px #000;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+/* Texte original */
+
+.text_normal {
+  font-size: 1.2em;
+  text-shadow: 2px 2px 2px #000;
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  right: 10%;
+}
+.text_normalhobbit {
+  font-size: 1.2em;
+  text-shadow: 2px 2px 2px #000;
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  right: 15%;
+}
+
+.text_normaldwarf {
+  font-size: 1.2em;
+  text-shadow: 2px 2px 2px #000;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+
+.orange {
+  color: #ff5000;
+}
+
+.bouton {
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  line-height: 50px;
+}
+
+.name {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding-bottom: 100px;
+}
+
+/********* Hover image et texte *******/
+
+/* Overlay */
+.hover {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+/* Apparition overlay sur passage souris */
+
+.overlay-image-gandalf:hover .hover {
+  opacity: 1;
+}
+.overlay-image-hobbit:hover .hover {
+  opacity: 1;
+}
+
+.overlay-image-dwarf:hover .hover {
+  opacity: 1;
+}
+.image_hover {
+  position: relative;
+}
+
+.text_hover {
+  color: #fff;
+  font-size: 2em;
+  font-weight: lighter;
+  line-height: 1.5em;
+  text-shadow: 2px 2px 2px #000;
+  text-align: center;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text_hoverhobbit {
+  color: #fff;
+  font-size: 2em;
+  font-weight: lighter;
+  text-shadow: 2px 2px 2px #000;
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text_hoverdwarf {
+  color: #fff;
+  font-size: 2em;
+  font-weight: lighter;
+  text-shadow: 3px 3px 3px #000;
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* text */ 
+
+.text-left {
+  overflow: scroll;
+  
+}  
+
+.text {
+  overflow: scroll;
+  
+ 
+}
+
+/* form, table */
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+
+blockquote {
+  width: 900px;
+}
+
+
+/* image */ 
+
+.rounded-circle {
+  float: right;
+}
+
+.imgaside {
+  float: right;
+  padding-left: 150px;
+}
+.imgMordor {
+  float: left;
+  padding-right: 20px;
+}
+
+.carousel-indicators {
+  height: 30px;
+}
+.bdexample {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+  object-fit: cover;
+}
+
+.imgaside {
+  float: right;
+  padding-left: 30px;
+}
+
+.rounded-circle {
+  float: right;
+}
+
+.carousel  {
+  max-height: 500px;
+}
+
+
+
+/* card and media */
+
+.card-header {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.media {
+  padding: 10px 80px 0px 10px;
+  
+}
+.mostwanted {
+  padding-left: 60px;
+}
+
+.badge {
+  margin-right: 50px;
+  font-size: 1.5em;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.badge:hover {
+  border-style: solid;
+  border-color: #3D3D3D;
+  border-radius: 10px 10px;
+  background-color: #3D3D3D!important;
+  color: white!important;
+}
+
+/* h1 & co */
+
+h1,h2,h3 {
+  margin-top: 20px;
+  font-size: 2em;
+}
+
+
+h5 {
+  font-weight: bold;
+  font-size: 
+}
+
+
+/* listes */
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  
+
+  .nav-link:hover {
+    border-style: solid;
+    border-color: grey;
+    border-radius: 10px 10px;
+    background-color: grey;
+    color: black;
+  }
+
+ 
+
+/* Liens */
+
+ a {
+    text-decoration: none;
+    color: white;   
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: grey;
+  }
+
+
+.profile {
+  color:black;
+}
+
+
+/* Navbar */
+
+nav {
+  height: 60px;
+}
+
+
+
+/* footer */
+
+
+.footer {
+    height: 50px;
+    line-height: 55px;     
+}
+
+
+
+
