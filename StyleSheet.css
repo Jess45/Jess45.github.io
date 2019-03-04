@@ -443,10 +443,10 @@ nav {
 /* footer */
 
 
-.footer {
+footer {
     height: 50px;
-    line-height: 55px;
-    background-color:#FE661D     
+    line-height: 55px;    
+    background-color: #dae0e5; 
 }
 
 
