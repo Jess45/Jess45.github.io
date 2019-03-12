@@ -22,6 +22,8 @@
 
 .card {
   padding: 0;
+  margin-right: 20px;
+  margin-left: 15px;
 }
 .card-img-top {
     opacity: 0.4;
@@ -44,12 +46,14 @@
     border-radius: 30px;
     text-align: center;
     position: absolute;
-    line-height: 50px;
+    line-height: 30px;
     align-content: center;
-    right: 5%;
-    top: 10%;
+    left: 3%;
+    top: 9%;
     font-family: 'aniron';
-    font-size: 1.7em;
+    font-size: 1.6em;
+
+    
 }
 
 .card-title {
@@ -58,8 +62,8 @@
     text-align: center;
     position: absolute;
     right: 0%;
-    top: 40%;
-    font-size: 3em;
+    top: 30%;
+    font-size: 3em!important;
     opacity: 1;
 }
 
@@ -68,7 +72,7 @@
     text-align: center;
     position: absolute;
     right: 0%;
-    top: 60%;
+    top: 40%;
     transition: 0.7s ease;
     font-size: 2em;
     opacity: 1;
@@ -80,6 +84,7 @@
     font-family: 'partybusiness';
     font-size: 1.5em;
 }
+
 .dead {
   color: #ff5000;
   font-size: 3em;
@@ -94,17 +99,18 @@
 .card:hover .dead {
     visibility: hidden;
 }
-  .orange {
-    color: #ff5000;
-  }
 
- .namegimli {
+.orange {
+    color: #ff5000;
+}
+
+.namegimli {
     color: #fff;
     font-size: 3em;
     font-weight: lighter;
     text-decoration-color: #ff5000;
     text-decoration-line:line-through!important; 
-  }
+}
 
 /* text */ 
 
@@ -129,6 +135,7 @@ p {
 .fontb {
   font-weight: bold;
 }
+
 /* form, table */
 
 form {
@@ -145,8 +152,6 @@ blockquote {
   color: black;
   font-family: 'partybusiness';
 }
-
-
 
 
 /* image */ 
@@ -175,6 +180,7 @@ blockquote {
 .carousel-indicators {
   height: 30px;
 }
+
 .bdexample {
   margin-left: auto;
   margin-right: auto;
@@ -191,9 +197,10 @@ blockquote {
   float: right;
 }
 
-.d-block {
-  height: 410px;
-  width: 980px;
+.logoF {
+  width: 70%;
+  height: auto;
+
 }
 
 .map {
@@ -213,7 +220,6 @@ blockquote {
   
 }
 
-
 .badge {
   font-family: "aniron";
   margin-right: 50px;
@@ -230,6 +236,8 @@ blockquote {
 .profile1 {
   padding-left: 50px;
 }
+
+
 /* h1 & co */
 
 h1,h2,h4 {
@@ -273,17 +281,16 @@ li {
 
 /** Liens **/
 
- a {
+a {
     text-decoration: none;
     color: white; 
     font-family: 'aniron'!important;  
-  }
+}
 
-  a:hover {
+a:hover {
     text-decoration: underline;
     color: #FFFFFF;  
-  }
-
+}
 
 .profile {
   color:black;
@@ -300,7 +307,6 @@ li {
   font-size: 1em;
   color: #fe661d;
   margin-top: 10px;
-  margin-left: 40rem;
 }
 
 .btn:hover {
@@ -311,6 +317,8 @@ li {
   font-size: 1em!important;
   font-family: "aniron";
   color: #fe661d!important;
+  margin-left: 20rem!important;
+
 
 }
 
@@ -318,18 +326,28 @@ li {
     text-decoration: underline;
     color: #fe661d;
 }
+
 /* Navbar */
 
-nav {
-  height: 60px;
-  background-color: #fe661d;
+
+.bg-dark {
+  background-color: #fe661d!important;
 }
 
-  .nav-link:hover {
-    text-decoration: underline;
-    color: #FFFFFF; 
+.nav-item {
+  padding-left: 20px;
+}
+
+
+.nav-link {
+  color: #FFFFFF!important;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #FFFFFF!important; 
    
-  }
+}
 
 .barre {
   color: #FFFFFF;
@@ -338,19 +356,20 @@ nav {
 
 .navbar-nav {
   margin-top: 10px;
+
 }
+
 /* footer */
 
-
 footer {
-    height: 50px;
-    line-height: 55px;    
+    
+  line-height: 55px;    
     
 }
 
 .footerinfo {
   background-color: #fe661d; 
-  padding-bottom: 20px;
+   padding-bottom: 20px;
   padding-top: 20px;
 }
 
@@ -365,10 +384,7 @@ footer {
 
 /**p**/
 
-.white {
-  font-size: 1.7em!important;
-  font-family: "partybusiness";
-}
+
 
 .textfellows {
   font-family: "partybusiness"!important;
@@ -379,18 +395,13 @@ footer {
 /**caroussel**/ 
 
 .Vador {
-  font-size: 1.6em;
-  margin-bottom: 60px;
-  width: 900px;
+  font-size: 1.2em;
+  max-height: 70px;
+  margin-bottom: 60PX;
 }
 
-.info {
-  height: 50px;
-  width: 200px;
-  margin-bottom: 0;
-  color: #fe661d;
-  right: 50%;
-}
+
+
 
 /**backgrounds**/
 
