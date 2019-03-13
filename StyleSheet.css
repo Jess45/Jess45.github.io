@@ -455,9 +455,12 @@ footer {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
+.ringtab {
+  margin-left: 10rem;
+}
 .gollum {
   margin-top: 25px;
+  margin-left: 10rem;
 }
 
 .ring {
